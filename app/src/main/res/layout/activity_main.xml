@@ -11,28 +11,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--        android:padding="24dp"-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp"
+        android:padding="@dimen/constraint_layout_widget_padding"
         tools:context=".MainActivity">
 
+        <!--android:text="lesson learnt"-->
+        <!--android:text="@string/button_text"-->
         <Button
             android:id="@+id/lesson_learnt_button"
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onLessonLearntClicked"
-            android:text="lesson learnt"
+
+            android:text="@string/lesson_learnt_label"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_description_text" />
 
+        <!--android:layout_width="128dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginBottom="12dp"-->
+
         <ImageView
             android:id="@+id/country_image"
-            android:layout_width="128dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
+            android:layout_width="@dimen/image_view_layout_width"
+            android:layout_height="@dimen/image_view_layout_height"
+            android:layout_marginBottom="@dimen/image_view_layout_margin_bottom"
             android:src="@drawable/ic_country"
             app:layout_constraintBottom_toTopOf="@+id/country_title_text"
             app:layout_constraintDimensionRatio="H, 1:1"
@@ -42,24 +51,29 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed" />
 
+        <!--android:layout_marginBottom="24dp"-->
+
         <TextView
             android:id="@+id/country_description_text"
             style="@style/AppTheme.LongText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="@dimen/country_description_layout_margin_bottom"
             android:text="Country description"
             app:layout_constraintBottom_toTopOf="@+id/lesson_learnt_button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text" />
+
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:text="Country Title"-->
 
         <TextView
             android:id="@+id/country_title_text"
             style="@style/AppTheme.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
-            android:text="Country Title"
+            android:layout_marginBottom="@dimen/country_title_layout_margin_bottom"
+            android:text="@string/text_view_country_title"
             app:layout_constraintBottom_toTopOf="@+id/country_description_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_chainStyle="packed"
