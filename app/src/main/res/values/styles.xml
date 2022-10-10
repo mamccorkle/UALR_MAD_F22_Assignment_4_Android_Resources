@@ -19,8 +19,6 @@
     </style>
 
     <style name="AppTheme.Button" parent="TextAppearance.AppCompat.Button">
-        <!-- TODO 6: Define button_color resource. Remember, the button will have a specific color for pressed state and another one for the rest -->
-        <!-- TODO 7: Once defined, uncomment the following line -->
         <item name="android:background">@drawable/button_color</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:paddingStart">@dimen/app_theme_button_paddingStart</item>

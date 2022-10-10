@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
     // Add the binder:
     private ActivityMainBinding binding;
 
+    // Add a Coordinator Layout for use with the Snackbar:
+    private CoordinatorLayout coordinatorLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,10 +51,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeCountryDescription() {
+        // Change the country description based on the system language:
         binding.countryDescriptionText.setText(getResources().getText(R.string.text_view_country_description));
     }
 
     public void onLessonLearntClicked(View view) {
-
+        // Create the Snackbar to be displayed to the user:
+        Snackbar snackbar = Snackbar.make(view, R.string.congrats_text, Snackbar.LENGTH_SHORT);
+        snackbar.show();
     }
 }
