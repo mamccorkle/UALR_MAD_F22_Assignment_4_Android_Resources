@@ -29,10 +29,9 @@ import com.google.android.material.snackbar.Snackbar;
 
 import com.ualr.resources.databinding.ActivityMainBinding;
 
-// TODO 3: Define the alternative resources needed to have different content and look n feel depending on the device language.
-
 public class MainActivity extends AppCompatActivity {
 
+    // Add the binder:
     private ActivityMainBinding binding;
 
     @Override
@@ -44,12 +43,11 @@ public class MainActivity extends AppCompatActivity {
         // Add button listener:
         binding.lessonLearntButton.setOnClickListener(this::onLessonLearntClicked);
 
-        // TODO 5: Initialize the text property of the TextView element with the "country_description_text" id by using the value retrieved in the previous TODO point
+        // Call the function to change the country description:
         changeCountryDescription();
     }
 
     public void changeCountryDescription() {
-        // TODO 4: Get the description string value from resources
         binding.countryDescriptionText.setText(getResources().getText(R.string.text_view_country_description));
     }
 

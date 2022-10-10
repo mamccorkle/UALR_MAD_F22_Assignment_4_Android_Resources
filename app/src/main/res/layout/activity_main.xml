@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TODO 1: Replace hardcoded numeric values with dimen resources (Obviously, you'll have to create a dimens file) -->
-<!-- TODO 2: Replace hardcoded strings with string resources for every GUI text component, with the exception of the
-             TextView with the "country_description_text" id -->
 <!-- TODO 8: Add a new layout for the MainActivity to be displayed on landscape orientation -->
 <!-- TODO 9: Make sure the appropriate bitmap image is displayed for the two considered languages -->
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,15 +8,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--        android:padding="24dp"-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/constraint_layout_widget_padding"
         tools:context=".MainActivity">
 
-        <!--android:text="lesson learnt"-->
-        <!--android:text="@string/button_text"-->
         <Button
             android:id="@+id/lesson_learnt_button"
             style="@style/AppTheme.Button"
@@ -32,9 +26,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_description_text" />
 
-        <!--android:layout_width="128dp"-->
-        <!--android:layout_height="0dp"-->
-        <!--android:layout_marginBottom="12dp"-->
         <ImageView
             android:id="@+id/country_image"
             android:layout_width="@dimen/image_view_layout_width"
@@ -49,7 +40,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed" />
 
-        <!--android:layout_marginBottom="24dp"-->
         <TextView
             android:id="@+id/country_description_text"
             style="@style/AppTheme.LongText"
@@ -61,8 +51,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text" />
 
-        <!--android:layout_marginBottom="24dp"-->
-        <!--android:text="Country Title"-->
         <TextView
             android:id="@+id/country_title_text"
             style="@style/AppTheme.Title"
