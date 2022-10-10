@@ -7,10 +7,14 @@
     <!--<color name="colorAccent">#D81B60</color>-->
     <!--<color name="colorText">#888</color>-->
 
-    <!-- Spanish Colors -->
+    <!-- Spanish Theme Colors -->
     <color name="colorPrimary">#e74c3c</color>
     <color name="colorPrimaryDark">#c0392b</color>
     <color name="colorAccent">#f39c12</color>
     <color name="colorText">#888</color>
+
+    <!-- Spanish Button Colors -->
+    <color name="button_color">#e74c3c</color>
+    <color name="button_color_pressed">#f39c12</color>
 
 </resources>

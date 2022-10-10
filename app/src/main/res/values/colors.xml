@@ -7,9 +7,14 @@
     <!--<color name="colorAccent">#D81B60</color>-->
     <!--<color name="colorText">#888</color>-->
 
-    <!-- US Colors -->
+    <!-- US Theme Colors -->
     <color name="colorPrimary">#3498db</color>
     <color name="colorPrimaryDark">#2980b9</color>
     <color name="colorAccent">#27ae60</color>
     <color name="colorText">#888</color>
+
+    <!-- US Button Colors -->
+    <color name="button_color">#3498db</color>
+    <color name="button_color_pressed">#27ae60</color>
+
 </resources>

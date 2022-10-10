@@ -2,6 +2,6 @@
     <string name="app_name">Geography Lesson</string>
     <string name="lesson_learnt_label">lesson learnt</string>
     <string name="congrats_text">Congratulations. Now, enjoy your free time.</string>
-<!--    <string name="button_text">lesson learnt</string>-->
+    <!--<string name="button_text">lesson learnt</string>-->
     <string name="text_view_country_title">Country Title</string>
 </resources>

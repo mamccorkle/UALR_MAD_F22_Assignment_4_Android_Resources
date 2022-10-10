@@ -9,7 +9,7 @@
 > :heavy_check_mark: 
 > :heavy_check_mark:  TODO 1: Replace hardcoded numeric values with dimen resources (Obviously, you'll have to create a dimens file)<br>
 > :heavy_check_mark:  TODO 2: Replace hardcoded strings with string resources for every GUI text component, with the exception of the TextView with the "country_description_text" id<br>
-> TODO 3: Define the alternative resources needed to have different content and look n feel depending on the device language.<br>
+> :heavy_check_mark:  TODO 3: Define the alternative resources needed to have different content and look n feel depending on the device language.<br>
 > TODO 4: Get the description string value from resources<br>
 > TODO 5: Initialize the text property of the TextView element with the "country_description_text" id by using the value retrieved in the previous TODO point<br>
 > TODO 6: Define button_color resource. Remember, the button will have a specific color for pressed state and another one for the rest<br>

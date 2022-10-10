@@ -9,16 +9,16 @@
 
     <style name="AppTheme.Title" parent="TextAppearance.AppCompat.Title">
         <item name="android:textColor">@color/colorAccent</item>
-<!--        <item name="android:textSize">20sp</item>-->
+        <!--<item name="android:textSize">20sp</item>-->
         <item name="android:textSize">@dimen/app_theme_title</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="AppTheme.LongText" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textColor">@color/colorText</item>
-<!--        <item name="android:textSize">16sp</item>-->
+        <!--<item name="android:textSize">16sp</item>-->
         <item name="android:textSize">@dimen/app_theme_long_text_text_size</item>
-<!--        <item name="android:lineHeight">24dp</item>-->
+        <!--<item name="android:lineHeight">24dp</item>-->
         <item name="android:lineHeight">@dimen/app_theme_long_text_line_height</item>
     </style>
 
@@ -27,9 +27,9 @@
         <!-- TODO 7: Once defined, uncomment the following line -->
         <!--item name="android:backgroundTint">@color/button_color</item-->
         <item name="android:textColor">@android:color/white</item>
-<!--        <item name="android:paddingStart">24dp</item>-->
+        <!--<item name="android:paddingStart">24dp</item>-->
         <item name="android:paddingStart">@dimen/app_theme_button_paddingStart</item>
-<!--        <item name="android:paddingEnd">24dp</item>-->
+        <!--<item name="android:paddingEnd">24dp</item>-->
         <item name="android:paddingEnd">@dimen/app_theme_button_padding_end</item>
     </style>
 
