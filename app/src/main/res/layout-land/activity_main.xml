@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp"
+        android:padding="@dimen/constraint_layout_widget_padding"
         tools:context=".MainActivity">
 
         <Button
@@ -17,7 +17,7 @@
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="@dimen/lesson_learnt_button_margin_top"
             android:background="@drawable/button_color"
             android:text="@string/lesson_learnt_label"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -26,8 +26,8 @@
 
         <ImageView
             android:id="@+id/country_image"
-            android:layout_width="128dp"
-            android:layout_height="0dp"
+            android:layout_width="@dimen/country_image_layout_width"
+            android:layout_height="@dimen/country_image_layout_height"
             android:contentDescription="@string/country_image"
             android:src="@drawable/ic_country"
             app:layout_constraintDimensionRatio="H, 1:1"
@@ -39,15 +39,15 @@
         <TextView
             android:id="@+id/country_description_text"
             style="@style/AppTheme.LongText"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/country_description_text_layout_width"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="@dimen/country_description_text_layout_marginStart"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintHorizontal_bias="@dimen/country_description_text_layout_constraintHorizontal_bias"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.26" />
+            app:layout_constraintVertical_bias="@dimen/country_description_text_layout_constraintVertical_bias" />
 
         <TextView
             android:id="@+id/country_title_text"
@@ -62,10 +62,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="249dp"
-            android:layout_height="116dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="60dp"
+            android:layout_width="@dimen/imageView_layout_width"
+            android:layout_height="@dimen/imageView_layout_height"
+            android:layout_marginTop="@dimen/imageView_layout_marginTop"
+            android:layout_marginEnd="@dimen/imageView_layout_marginEnd"
             android:contentDescription="@string/country_image"
             android:scaleType="fitEnd"
             android:src="@drawable/ic_country_bitmap"
@@ -77,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_begin="221dp" />
+            app:layout_constraintGuide_begin="@dimen/guideline" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

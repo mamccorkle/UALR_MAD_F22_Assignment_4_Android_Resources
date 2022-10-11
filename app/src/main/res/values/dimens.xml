@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--    Portrait    -->
     <dimen name="app_theme_title">20sp</dimen>
     <dimen name="app_theme_long_text_text_size">16sp</dimen>
     <dimen name="app_theme_long_text_line_height">24dp</dimen>
@@ -11,4 +13,18 @@
     <dimen name="image_view_layout_margin_bottom">12dp</dimen>
     <dimen name="country_description_layout_margin_bottom">24dp</dimen>
     <dimen name="country_title_layout_margin_bottom">24dp</dimen>
+
+    <!--    Landscape    -->
+    <dimen name="lesson_learnt_button_margin_top">12dp</dimen>
+    <dimen name="country_image_layout_width">128dp</dimen>
+    <dimen name="country_image_layout_height">0dp</dimen>
+    <dimen name="country_description_text_layout_width">0dp</dimen>
+    <dimen name="country_description_text_layout_marginStart">12dp</dimen>
+    <dimen name="country_description_text_layout_constraintHorizontal_bias">0.25</dimen>
+    <dimen name="country_description_text_layout_constraintVertical_bias">0.26</dimen>
+    <dimen name="imageView_layout_width">249dp</dimen>
+    <dimen name="imageView_layout_height">116dp</dimen>
+    <dimen name="imageView_layout_marginTop">28dp</dimen>
+    <dimen name="imageView_layout_marginEnd">60dp</dimen>
+    <dimen name="guideline">221dp</dimen>
 </resources>
